@@ -6,15 +6,15 @@ const Project = () => {
         [
             {
                 id:0,
-                name:"Quản lý sinh viên hệ tín chỉ ",
-                desc:"Cho phép đăng kí môn, hủy môn, nhập điểm cho sinh viên",
+                name:"Quản lý sinh viên hệ tín chỉ. ",
+                desc:"Cho phép đăng kí môn, hủy môn, nhập điểm cho sinh viên.",
                 language:"C++",
                 img:"https://github.com/tranthudat2k1/doan-ctdl-qlsv/raw/main/img/demo2.jpg",
                 link:"https://github.com/tranthudat2k1/doan-ctdl-qlsv"
             },
             {
                 id:1,
-                name:"Game nhập chữ",
+                name:"Game nhập chữ.",
                 desc:"Chương trình random hiện chữ, người chơi gõ đúng sẽ có điểm.",
                 language:"ReactJS",
                 img:"https://github.com/tranthudat2k1/typing-game-reactjs/raw/main/intro.jpg",
@@ -22,7 +22,7 @@ const Project = () => {
             },
             {
                 id:2,
-                name:"Thống kê Covid",
+                name:"Thống kê Covid.",
                 desc:"Cho phép tra cứu tình hình covid trên các quốc gia.",
                 language:"Javascript",
                 img:"https://github.com/tranthudat2k1/CovidJS/raw/main/img/demo1.jpg",
@@ -44,7 +44,7 @@ const Project = () => {
 
                     }
                     <li className='project-item'>
-                        Xem thêm tại :
+                        Xem thêm tại - 
                         <a href="https://github.com/tranthudat2k1" target="_blank">https://github.com/tranthudat2k1</a>
                     </li>
                 </ul>

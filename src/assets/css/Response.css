@@ -1,0 +1,81 @@
+@media screen and (max-width: 500px) {
+    .App {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .avatar {
+        width: 80%;
+        margin: 0 auto;
+        height: 320px;
+        position: relative;
+    }
+    .avatar-img {
+        position: absolute;
+        bottom: 76%;
+        height: 140px;
+        width: 140px;
+    }
+    .avatar-name {
+        margin-top: 100px;
+    }
+    .hide {
+        display: none;
+    }
+    .active {
+        display: block;
+        width: 90vw;
+        height: 70vh;
+    }
+    .view-more {
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+    }
+    .view-more:active .overview {
+        display: block;
+    }
+    .view-more i {
+        font-size: 35px;
+    }
+    .contact {
+        transform: none;
+        top: 0%;
+    }
+    .form__contact {
+        width: 84vw;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .form__contact>h1 {
+        font-size: 25px;
+    }
+    .form_input {
+        width: 86%;
+    }
+    .form__contact input {
+        width: 84%;
+    }
+    .popup {
+        width: 90vw;
+        height: 50vh;
+    }
+    .popup>h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .popup>img {
+        display: none;
+    }
+    .popup>p {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

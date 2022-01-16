@@ -16,7 +16,7 @@ const ProjectItem = ({ project }) => {
             <h1 className=''>{project.name}</h1>
             <p>Chi tiết về project : {project.desc}</p>
             <p>Ngôn ngữ : {project.language}</p>
-            <p>Link code :
+            <p>Link code -
                 <a href={project.link} target="_blank">{project.link}</a>
             </p>
             <img src={project.img} alt="img_demo" />
